@@ -12,6 +12,5 @@ void Start()
 {
     agenteDeNavegacion = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
     agenteDeNavegacion.SetDestination(destino.transform.position);
-
 }
 }
